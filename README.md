@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Pagina-Produse – Smart Home Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Available Scripts
+---
+## Live Demo
 
-In the project directory, you can run:
+[Click aici pentru demo live] (https://pagina-produse.vercel.app/)
 
-### `npm start`
+---
+## 🌟 Descriere
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Pagina-Produse** este o aplicație React simplă și elegantă care afișează produse Smart Home organizate pe categorii. Utilizatorii pot filtra produsele după categorie și pot accesa direct link-ul către magazinul online.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Proiectul este modular, responsive și ușor de extins cu produse noi sau categorii suplimentare.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Funcționalități principale
+- Filtrare produse după categorie
+- Afișarea produselor cu imagine, denumire și link către magazin
+- Design responsiv și hover efecte interactive
+- Structură modulară și ușor de întreținut
+- Poate fi extins rapid cu noi categorii și produse
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tech Stack
+- **ReactJS** – pentru construirea UI-ului
+- **JavaScript (ES6)** – logica aplicației
+- **CSS personalizat** – design curat și responsive
+- **React State (useState)** – filtrare produse pe categorii
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 Bonus / Extra Features
+- Componentizare ușoară pentru adăugarea de funcționalități viitoare (ex: sortare, căutare)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Structura proiectului
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+src/
+├── components/
+│ └── ProductCard.jsx
+├── data/
+│ └── productData.js
+├── pages/
+│ └── HomePage.css 
+| └── HomePage.jsx
+└── App.jsx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots / Demo GIF
 
-## Learn More
+![Homepage](./screenshots/home.png)
+![Pagina Senzori](./screenshots/senzori.png)
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Toate datele sunt locale, stocate în productData.js
+- Design-ul și CSS-ul sunt păstrate fidel, cu efecte plăcute și responsivitate
+- Aplicația poate fi extinsă rapid cu noi categorii, produse sau funcționalități
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔧 Skills Demonstrated
 
-### Analyzing the Bundle Size
+- Crearea unui UI modular și responsive cu React
+- Gestionarea stării și filtrarea datelor în React
+- Utilizarea CSS personalizat pentru layout și efecte vizuale
+- Organizarea și documentarea proiectului pentru portofoliu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Email: agapiandreea53@gmail.com
+- LinkedIn: https://www.linkedin.com/in/andreea-agapi-015705216/
+- GitHub: [andreeaagai](https://github.com/andreeaagai)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation / Setup
 
-### Deployment
+1. Clonează repository-ul:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/andreeaagai/Pagina-Produse.git
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
