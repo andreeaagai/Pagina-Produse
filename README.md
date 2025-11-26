@@ -40,20 +40,6 @@ Proiectul este modular, responsive și ușor de extins cu produse noi sau catego
 
 ---
 
-## Structura proiectului
-
-src/
-├── components/
-│ └── ProductCard.jsx
-├── data/
-│ └── productData.js
-├── pages/
-│ └── HomePage.css 
-| └── HomePage.jsx
-└── App.jsx
-
----
-
 ## Screenshots / Demo GIF
 
 ![Homepage](./screenshots/home.png)
